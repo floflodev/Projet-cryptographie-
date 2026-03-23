@@ -55,6 +55,35 @@ def dechiffre_cesar_phrase(phrase, k) :
             nouveau_texte += nouvelle_lettre_phrase
     return nouveau_texte
 # Exemple avec la phrase "FDSWXUHC LGHILA !" et -3 pour k
-# Afin de déchiffrer, j'ai choisi d'utiliser un décalage -k plutot que k sur une meme base de fonction 
+# Afin de déchiffrer, j'ai choisi d'utiliser un décalage -k sur une meme base de fonction 
 resultat = dechiffre_cesar_phrase("FDSWXUHC LGHILA !", -3)
 print(resultat) # Affiche "CAPTUREZ IDEFIX !"
+
+# 4) 
+# Objectif :
+# Programmer une fonction d'attaque afin de tester tous les dechiffrements possibles d'une phrase en ne connaisant pas la clé k
+
+def attaque_cesar_phrase(phrase) : 
+    nouveau_texte = ""
+    essai = 1
+    # La fonction tourne 26 fois, correspondant aux 26 lettres de l'alphabet 
+    # afin de tester les 26 possibilités de décalage 
+    while essai != 26 :
+        # Réinitilise le texte pour ce décalage 
+        nouveau_texte = ""
+        for car in phrase :
+            if car not in Alphabet:
+                nouveau_texte += car 
+            else:
+                # Décle le caractere selon la clé "essai
+                nouvelle_lettre_phrase = chiffre_cesar_caractere(car, essai)
+                nouveau_texte += nouvelle_lettre_phrase
+        # Affiche le texte obtenu avec ce décalage     
+        print(nouveau_texte)
+        # Passe au décalage suivant 
+        essai += 1
+# Exemple avec la phrase "HSFGJSEAP F S HDMK VW HGLAGF"
+resultat = attaque_cesar_phrase("HSFGJSEAP F S HDMK VW HGLAGF")
+print(resultat) # Affiche toutes les possibilités avec les 26 clés k
+# La bonne étant : "PANORAMIX N A PLUS DE POTION"
+
