@@ -9,11 +9,11 @@ L'énonce est tiré d'un projet d'école préparatoire que j'ai pu trouver sur i
 
 ### Objectifs :
 - Activité 1 :
-  Programmer le chiffrement et déchiffrement d'un texte grace au chiffre de   César      
+  Programmer le chiffrement et déchiffrement d'un texte grace au chiffre de   César (terminée)
 - Activité 2 :
-  Programmer le codage et le décodage d'un texte grace a un chiffrement de    subsitution
+  Programmer le codage et le décodage d'un texte grace a un chiffrement de    subsitution (terminée)
 - Activité 3 :
-  Utiliser la fréquence d'apparition des lettres pour décrypter un message     en essayant de deviner la subsitutuion
+  Utiliser la fréquence d'apparition des lettres pour décrypter un message     en essayant de deviner la substitution (en cours)
 
     
   
