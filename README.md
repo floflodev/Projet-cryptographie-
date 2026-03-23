@@ -1,4 +1,4 @@
-# Projet cryptographie en python  
+# Projet cryptographie en python (en cours)
 
 ## Sujet :
 Nous jouons le role d'un espion devant intercepter des messages secrets et les decrypter grace à différentes méthodes
