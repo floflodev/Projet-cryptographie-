@@ -14,6 +14,7 @@ L'énonce est tiré d'un projet d'école préparatoire que j'ai pu trouver sur i
   Programmer le codage et le décodage d'un texte grace a un chiffrement de    subsitution (terminée)
 - Activité 3 :
   Utiliser la fréquence d'apparition des lettres pour décrypter un message     en essayant de deviner la substitution (en cours)
-
+- Activité 4 :
+  (Pas encore débutée)
     
   
